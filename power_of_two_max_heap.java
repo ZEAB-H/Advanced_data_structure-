@@ -133,6 +133,7 @@ public class power_of_two_max_heap {
 		// Custom inputs
 		maxHeap.insert(5);
 		maxHeap.insert(3);
+		maxHeap.insert(6);
 		maxHeap.insert(17);
 		maxHeap.insert(10);
 		maxHeap.insert(84);
@@ -143,9 +144,11 @@ public class power_of_two_max_heap {
 
 		// Calling maxHeap() as defined above
 		maxHeap.print();
+		maxHeap.print();
 
 		// Print and display the maximum value in heap
 		System.out.println("The max val is "
 						+ maxHeap.extractMax());
 	}
 }
+
